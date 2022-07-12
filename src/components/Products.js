@@ -1,0 +1,13 @@
+import React from 'react';
+import CardList from "./CardList";
+
+function Products({products, addToCart}) {
+    return (
+        <div className="products">
+            <h3 className="themeText">Pizza</h3>
+            <CardList products={products} addToCart={addToCart} />
+        </div>
+    );
+}
+
+export default Products;
